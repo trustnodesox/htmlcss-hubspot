@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first-menu{
+  margin: 0 10% auto;
+
+}
+
+.bg-menu{
+  width: 100%;
+  height: 80px;
+  background-color: lightgrey;
+  border-bottom: 3px solid black;
+}
+
+.language{
+  padding-right: 20px;
+  border-right: 1px solid black;
+  display: inline-block;
+}
+
+.us{
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.btns{
+  display: inline-block;
+  float: right;
+}
+
+#login{
+  padding: 6px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+  color: red;
+  margin-left: 15px;
+}
+
+#free{
+  padding: 6px;
+
+  margin-left: 15px;
+}
+
+.btn{
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
+
+.second-menu{
+  margin: 0 10% auto;
+}
+
+.language{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.us{
+  vertical-align: middle;
+
+}
+
+.container{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.logo{
+  display: inline-block;
+}
+
+nav{
+  float: right;
+}
+
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+  line-height: 2;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.jumbo-bg{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  background-position: 50%, 50%;
+  height: 562px;
+  background-image: url("img/jumbotron.png");
+}
+
+.jumbo-txt{
+  width: 40%;
+  margin: 0 10% auto;
+  padding-top: 40px;
+}
+
+.jumbo-txt h1{
+  font-size: 50px;
+}
+
+.jumbo-txt p{
+  padding-top: 20px;
+  line-height: 1.8;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.jumbo-txt button{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+section{
+  width: 100%;
+  height: 100px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
