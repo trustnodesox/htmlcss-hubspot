@@ -201,6 +201,7 @@ main{
 }
 
 .row-1 .col-50 p{
+  font-weight: bold;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -231,7 +232,7 @@ main{
   border-radius: 40%;
 }
 
-.check i{
+.far{
   color: red;
 
 }
@@ -279,6 +280,7 @@ div[class^=col-txt]{
 }
 
 .col-txt h2{
+  text-transform: uppercase;
   padding-top: 30px;
   padding-bottom: 30px;
 }
